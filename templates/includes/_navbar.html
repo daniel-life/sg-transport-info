@@ -1,44 +1,28 @@
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">SG Transport</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="mynavbar">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
-        </li>
+<nav id="navbar" class="navbar">
+  <ul>
+    <li><a class="nav-link active" href="/">Home</a></li>
+    <li><a class="nav-link" href="/about">About</a></li>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            MRT
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">History</a></li>
-            <li><a class="dropdown-item" href="#">Guide</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Bus
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">History</a></li>
-            <li><a class="dropdown-item" href="#">Guide</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="/contacts">Contacts</a>
-        </li>
+    <li class="dropdown"><a href="#"><span>MRT</span> <i class="bi bi-chevron-down"></i></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">History</a></li>
+        <li><a href="#">Guide</a></li>
       </ul>
+    </li>
 
-      <form class="d-flex">
-        <input class="form-control me-2" type="text" placeholder="Search">
-        <button class="btn btn-primary" type="button">Search</button>
-      </form>
-    </div>
-  </div>
+    <li class="dropdown"><a href="#"><span>Bus</span> <i class="bi bi-chevron-down"></i></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">History</a></li>
+        <li><a href="#">Guide</a></li>
+      </ul>
+    </li>
+
+    <li><a class="nav-link" href="/contacts">Contacts</a></li>
+  </ul>
+
+  <form class="d-flex">
+    <input class="form-control me-2" type="text" placeholder="Search">
+    <button class="btn btn-primary" type="button">Search</button>
+  </form>
+  <i class="bi bi-list mobile-nav-toggle"></i>
 </nav>
