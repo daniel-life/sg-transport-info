@@ -24,6 +24,10 @@
 
     <!-- Template Main CSS File -->
     <link href="static/css/style.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/smoothness/jquery-ui.css">
 </head>
 
 <body>
@@ -40,7 +44,7 @@
         </div>
     </header>
    
-    <main id="main">
+    <main id="main" style="flex: 1;">
         {% block content %}
         {% endblock %}
     </main>
@@ -61,6 +65,8 @@
     
         <!-- Template Main JS File -->
         <script src="static/js/main.js"></script>
+        <script src="static/js/img.js"></script>
+
     {% endblock %}
 </body>
 
