@@ -2,23 +2,164 @@
 {% block title %}SG Transport - Train System{% endblock %}
 
 {% block content %}
+
 <section id="system">
-    <div class="section-title" data-aos="zoom-out">
-        <h2>System</h2>
-        <p>System Map</p>
+    <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+            <h2>System</h2>
+            <p>System Map</p>
+        </div>
+        <img src="static/img/train map.png" class="image-fluid mx-auto d-block" alt="SG Train Map">
     </div>
-    <img src="static/img/train map.png" class="image-fluid mx-auto d-block" alt="SG Train Map">
 </section>
 
-<section id="Lines">
-    <div class="section-title" data-aos="zoom-out">  
-        <h2>Lines</h2>
-        <p>Rail Lines</p>
+<section id="lines" class="lines">
+    <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+            <h2>Lines</h2>
+            <p>Rail Lines</p>
+            <br><br>
+            <p>MRT Lines</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <a href="">
+                    <div class="icon-box" data-aos="zoom-in-left" style="background-color: #d42e12">
+                        <div class="icon"><i class="bi bi-train-front"></i></div>
+                        <h4 class="title">North-South Line</h4>
+                        <p class="description">
+                            Automated high-capacity MRT line
+                            <br>
+                            27 stations · 45 km
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+                <a href="">
+                    <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100"
+                        style="background-color: #009645">
+                        <div class="icon"><i class="bi bi-train-front"></i></div>
+                        <h4 class="title">East-West Line</h4>
+                        <p class="description">
+                            Automated high-capacity MRT line
+                            <br>
+                            35 stations · 56.7 km
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
+                <a href="">
+                    <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200"
+                        style="background-color: #9900ab">
+                        <div class="icon"><i class="bi bi-train-front"></i></div>
+                        <h4 class="title">North-East Line</h4>
+                        <p class="description">
+                            Automated high-capacity MRT line
+                            <br>
+                            16 stations · 20 km
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5">
+                <a href="">
+                    <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300"
+                        style="background-color: #fa9e0d">
+                        <div class="icon"><i class="bi bi-train-front"></i></div>
+                        <h4 class="title" style="color:#111;">Circle Line</h4>
+                        <p class="description" style="color:#111;">
+                            Automated medium-capacity MRT line
+                            <br>
+                            30 stations · 35.7 km
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-5">
+                <a href="">
+                    <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400"
+                        style="background-color: #005ec4">
+                        <div class="icon"><i class="bi bi-train-front"></i></div>
+                        <h4 class="title">Downtown Line</h4>
+                        <p class="description">
+                            Automated medium-capacity MRT line
+                            <br>
+                            34 stations · 41.9 km
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5">
+                <a href="">
+                    <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500"
+                        style="background-color: #9d5918">
+                        <div class="icon"><i class="bi bi-train-front"></i></div>
+                        <h4 class="title">Thompson-East Coast Line</h4>
+                        <p class="description">
+                            Automated medium-capacity MRT line
+                            <br>
+                            32 stations · 43 km
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="section-title" data-aos="zoom-out">
+            <br><br>
+            <p>LRT Lines</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <a href="">
+                    <div class="icon-box" data-aos="zoom-in-left" style="background-color: #708270">
+                        <div class="icon"><i class="bi bi-train-lightrail-front"></i></div>
+                        <h4 class="title">Bukit Panjang LRT</h4>
+                        <p class="description">
+                            Automated LRT line
+                            <br>
+                            13 stations · 7.6 km (2 routes)
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+                <a href="">
+                    <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100"
+                        style="background-color: #708270">
+                        <div class="icon"><i class="bi bi-train-lightrail-front"></i></div>
+                        <h4 class="title">Sengkang LRT</h4>
+                        <p class="description">
+                            Automated LRT line
+                            <br>
+                            14 stations · 10.7 km (2 loops)
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
+                <a href="">
+                    <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200"
+                        style="background-color: #708270">
+                        <div class="icon"><i class="bi bi-train-lightrail-front"></i></div>
+                        <h4 class="title">Punggol LRT</h4>
+                        <p class="description">
+                            Automated LRT line
+                            <br>
+                            15 stations · 10.3 km (2 loops)
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
-    <h2>MRT Lines</h2>
-
-   
-    
-
 </section>
 {% endblock %}
