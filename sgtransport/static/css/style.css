@@ -35,6 +35,18 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.about,
+.contacts,
+.system,
+.train-guide,
+.bus-guide,
+.error403,
+.error404,
+.error500 {
+  padding-top: 80px;
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -89,7 +101,7 @@ h6 {
 }
 
 #header.header-translucent {
-  background: rgba(192,192,192);
+  background: rgba(192, 192, 192);
 }
 
 #header.header-scrolled {
@@ -569,9 +581,6 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about {
-  padding-top: 80px;
-}
 
 .about .content h3 {
   font-weight: 600;
@@ -799,7 +808,7 @@ section {
 .lines .title {
   margin-left: 40px;
   font-weight: 700;
-  color:#fff;
+  color: #fff;
   margin-bottom: 15px;
   font-size: 18px;
 }
@@ -811,7 +820,7 @@ section {
 }
 
 .lines .description {
-  color:#fff;
+  color: #fff;
   font-size: 14px;
   margin-left: 40px;
   line-height: 24px;

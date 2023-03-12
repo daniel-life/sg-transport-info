@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% block title %}SG Transport - About{% endblock %}
+
+{% block content %}
+<section id="about" class="about">
+    <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+            <h2>About</h2>
+            <p>SG Transport</p>
+        </div>
+
+        <div class="col-lg-6">
+            <p>
+                This website Contains:
+            </p>
+            <ul>
+                <li><i class="ri-check-double-line"></i> Information on SG Train and Bus network</li>
+                <li><i class="ri-check-double-line"></i> Guides to help you travel in SG public transport network</li>
+                <li><i class="ri-check-double-line"></i> Contacts of SG public transport Operators</li>
+            </ul>
+        </div>
+
+        <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+                This website showcases Singapore's vast and excellent Transport network, with guides to help enrich your
+                commute in
+                Singapore. I hope this website will make travelling around Singapore's transport network fun and easy
+                for you. Happy travelling!
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="features" class="features">
+    <div class="container">
+        <ul class="nav nav-tabs row d-flex">
+            <li class="nav-item col-3" data-aos="zoom-in">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+                    <i class="ri-train-line"></i>
+                    <h4 class="d-none d-lg-block">Trains</h4>
+                </a>
+            </li>
+            <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+                    <i class="ri-bus-line"></i>
+                    <h4 class="d-none d-lg-block">Buses</h4>
+                </a>
+            </li>
+            <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+                    <i class="ri-building-line"></i>
+                    <h4 class="d-none d-lg-block">Public transport Operators</h4>
+                </a>
+            </li>
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up">
+            <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                    <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                        <p>
+                            Singapore's train system is widely regarded as one of the best in the world, with the latest
+                            technology
+                            being adopted and
+                            our infrastructure being well-maintained. Come and explore the system and tips on how to
+                            travel
+                            on our train network in Singapore.
+                        </p>
+                        <ul>
+                            <li><i class="ri-check-double-line"></i><a href="/train_system">System map and Lines</a>
+                            </li>
+                            <li><i class="ri-check-double-line"></i><a href="/train_guide">Guide on travelling on train
+                                    network</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2 text-center">
+                        <img src="static/img/singapore train.jpg" alt="Singapore Train network" class="img-fluid">
+                        <br>
+                        <p>
+                            A SMRT train stopping at Kallang MRT Station, on the East West Line
+                            <br>
+                            Credits: &copy; <a
+                                href="https://www.gettyimages.com.au/search/photographer?photographer=Calvin%20Chan%20Wai%20Meng">Calvin
+                                Chan Wai Meng, gettyimages</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane" id="tab-2">
+                <div class="row">
+                    <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                        <p>
+                            Singapore's bus system helps supplement train network in bringing commuters to their
+                            destination. It serves as a mode of transport in
+                            neibourhoods, malls, and workplaces. Singapore's bus system provides a reliable and
+                            affordable
+                            way for commuters to travel in Singapore.
+                        </p>
+                        <ul>
+                            <li><i class="ri-check-double-line"></i><a href="/bus_services">Bus services</a></li>
+                            <li><i class="ri-check-double-line"></i><a href="/bus_guide">Guide on travelling with the
+                                    bus</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2 text-center">
+                        <img src="static/img/singapore bus.jpg" alt="Singapore Train network" class="img-fluid">
+                        <br>
+                        <p>
+                            A service 518A, Singapore MAN A22 bus travelling on the road
+                            <br>
+                            Credits: &copy; <a href="https://landtransportguru.net/1720-518a-2/">Land Transport Guru</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane" id="tab-3">
+                <div class="row">
+                    <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                        <p>
+                            Find out more about the Singapore Public Transport Operators, with their contact details
+                            through
+                            the link below.
+                        </p>
+                        <ul>
+                            <li><i class="ri-check-double-line"></i><a href="/contacts">Public Transport Operator
+                                    Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}
